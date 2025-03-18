@@ -145,7 +145,7 @@ const [message, setMessage] = useState("");
     };
   
     try {
-      const response = await fetch("http://localhost:5001/send-email", {
+      const response = await fetch("https://deploy-preview-9--ananthezhumalai.netlify.app/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
